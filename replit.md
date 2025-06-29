@@ -111,7 +111,14 @@ This is a modern personal portfolio website for Yatin Garg, an AWS DevOps Engine
 
 ```
 Changelog:
-- June 29, 2025. Initial setup
+- June 29, 2025. Initial setup with modern React portfolio featuring GitHub-inspired design
+- June 29, 2025. Integrated authentic resume data and contact information
+  • Updated About page with real TCS experience and J.C. Bose University education
+  • Added actual project portfolio with specific achievements and metrics
+  • Updated skills with real technical expertise from resume
+  • Configured resume download functionality with actual PDF file
+  • Updated contact form with real email (yatingarg369@gmail.com)
+  • Changed title from "AWS DevOps Engineer" to "Cloud and DevOps Engineer"
 ```
 
 ## User Preferences

@@ -12,23 +12,23 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center animate-slide-up" style={{animationDelay: '0.4s'}}>
           <div className="space-y-6">
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I'm a dedicated AWS DevOps Engineer with 3 years of experience in cloud infrastructure, 
-              automation, and modern development practices. My passion lies in creating robust, scalable 
-              systems that enable teams to deliver high-quality software efficiently.
+              I'm a dedicated Cloud and DevOps Engineer with 3+ years of experience at Tata Consultancy Services, 
+              specializing in cloud infrastructure automation and modern development practices. I've successfully 
+              managed over 50+ cloud servers across 5+ environments, optimizing resource utilization and system reliability.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              Throughout my career, I've specialized in designing and implementing CI/CD pipelines, 
-              containerizing applications, and managing cloud infrastructure across multiple platforms. 
-              I believe in the power of automation and continuous improvement to drive operational excellence.
+              I hold a B.Tech in Computer Science and Engineering from J.C. Bose University (8.299 CGPA) and have 
+              expertise in building end-to-end CI/CD pipelines, reducing deployment time by 60% and implementing 
+              Infrastructure as Code solutions that reduce manual interventions by 80%.
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="text-center p-4 bg-white dark:bg-gray-800 rounded-lg border border-github-border dark:border-gray-700 hover-lift">
-                <div className="text-2xl font-bold gradient-text">3+</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
+                <div className="text-2xl font-bold gradient-text">50+</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Cloud Servers Managed</div>
               </div>
               <div className="text-center p-4 bg-white dark:bg-gray-800 rounded-lg border border-github-border dark:border-gray-700 hover-lift">
-                <div className="text-2xl font-bold gradient-text">25+</div>
-                <div className="text-sm text-gray-600 dark:text-gray-400">Projects Completed</div>
+                <div className="text-2xl font-bold gradient-text">60%</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400">Deployment Time Reduction</div>
               </div>
             </div>
           </div>

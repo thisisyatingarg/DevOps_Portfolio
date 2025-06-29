@@ -1,5 +1,5 @@
 import SkillCard from "@/components/SkillCard";
-import { Cloud, Group, RotateCcw, Code, TrendingUp, GitBranch } from "lucide-react";
+import { Cloud, Group, RotateCcw, Code, TrendingUp, GitBranch, Database, Shield } from "lucide-react";
 
 export default function Skills() {
   const skillCategories = [
@@ -8,8 +8,10 @@ export default function Skills() {
       icon: Cloud,
       skills: [
         { name: "AWS", level: 5 },
-        { name: "Microsoft Azure", level: 4 },
-        { name: "Google Cloud Platform", level: 4 },
+        { name: "AWS EC2", level: 5 },
+        { name: "AWS S3", level: 5 },
+        { name: "AWS EKS", level: 4 },
+        { name: "AWS DynamoDB", level: 4 },
       ]
     },
     {
@@ -27,7 +29,7 @@ export default function Skills() {
       skills: [
         { name: "Jenkins", level: 5 },
         { name: "GitHub Actions", level: 5 },
-        { name: "GitLab CI", level: 4 },
+        { name: "GitLab CI", level: 5 },
         { name: "Harness", level: 4 },
       ]
     },
@@ -37,6 +39,25 @@ export default function Skills() {
       skills: [
         { name: "Terraform", level: 5 },
         { name: "Ansible", level: 4 },
+      ]
+    },
+    {
+      title: "Web Frameworks",
+      icon: Database,
+      skills: [
+        { name: "Flask", level: 4 },
+        { name: "Django", level: 4 },
+        { name: "Nginx", level: 5 },
+        { name: "MySQL", level: 5 },
+      ]
+    },
+    {
+      title: "Security & Quality",
+      icon: Shield,
+      skills: [
+        { name: "SonarQube", level: 4 },
+        { name: "Trivy", level: 4 },
+        { name: "OWASP", level: 4 },
       ]
     },
     {

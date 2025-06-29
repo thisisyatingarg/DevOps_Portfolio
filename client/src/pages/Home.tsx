@@ -4,8 +4,12 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   const handleDownloadResume = () => {
-    // In a real implementation, this would download the actual resume
-    window.open("#", "_blank");
+    const link = document.createElement('a');
+    link.href = '/Yatin_Garg_Resume.pdf';
+    link.download = 'Yatin_Garg_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   const scrollToContact = () => {
@@ -21,7 +25,7 @@ export default function Home() {
             Yatin Garg
           </h1>
           <h2 className="font-inter text-xl md:text-2xl gradient-text font-medium mb-6 tracking-wide animate-slide-up neon-pulse" style={{animationDelay: '0.2s'}}>
-            AWS DevOps Engineer
+            Cloud and DevOps Engineer
           </h2>
           <p className="font-inter text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed animate-slide-up" style={{animationDelay: '0.4s'}}>
             Passionate about building scalable cloud infrastructure and streamlining development workflows. 

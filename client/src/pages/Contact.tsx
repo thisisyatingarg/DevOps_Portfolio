@@ -21,12 +21,12 @@ export default function Contact() {
                 <Mail className="text-github-blue text-xl" />
               </div>
               <div>
-                <h3 className="font-sf-pro text-lg font-semibold text-github-dark">Email</h3>
+                <h3 className="font-sf-pro text-lg font-semibold text-github-dark dark:text-white">Email</h3>
                 <a 
-                  href="mailto:yatin.garg@example.com"
-                  className="text-gray-600 hover:text-github-blue transition-colors"
+                  href="mailto:yatingarg369@gmail.com"
+                  className="text-gray-600 dark:text-gray-300 hover:text-github-blue dark:hover:text-blue-400 transition-colors"
                 >
-                  yatin.garg@example.com
+                  yatingarg369@gmail.com
                 </a>
               </div>
             </div>
@@ -36,12 +36,12 @@ export default function Contact() {
                 <Linkedin className="text-github-blue text-xl" />
               </div>
               <div>
-                <h3 className="font-sf-pro text-lg font-semibold text-github-dark">LinkedIn</h3>
+                <h3 className="font-sf-pro text-lg font-semibold text-github-dark dark:text-white">LinkedIn</h3>
                 <a 
                   href="https://linkedin.com/in/yatingarg" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-gray-600 hover:text-github-blue transition-colors"
+                  className="text-gray-600 dark:text-gray-300 hover:text-github-blue dark:hover:text-blue-400 transition-colors"
                 >
                   linkedin.com/in/yatingarg
                 </a>
@@ -53,12 +53,12 @@ export default function Contact() {
                 <Github className="text-github-blue text-xl" />
               </div>
               <div>
-                <h3 className="font-sf-pro text-lg font-semibold text-github-dark">GitHub</h3>
+                <h3 className="font-sf-pro text-lg font-semibold text-github-dark dark:text-white">GitHub</h3>
                 <a 
                   href="https://github.com/yatingarg" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-gray-600 hover:text-github-blue transition-colors"
+                  className="text-gray-600 dark:text-gray-300 hover:text-github-blue dark:hover:text-blue-400 transition-colors"
                 >
                   github.com/yatingarg
                 </a>
@@ -70,8 +70,8 @@ export default function Contact() {
                 <MapPin className="text-github-blue text-xl" />
               </div>
               <div>
-                <h3 className="font-sf-pro text-lg font-semibold text-github-dark">Location</h3>
-                <p className="text-gray-600">Available for Remote Work</p>
+                <h3 className="font-sf-pro text-lg font-semibold text-github-dark dark:text-white">Location</h3>
+                <p className="text-gray-600 dark:text-gray-300">Faridabad, HR | Available for Remote Work</p>
               </div>
             </div>
           </div>

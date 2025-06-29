@@ -5,38 +5,38 @@ import { Github } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
-      title: "Multi-Cloud CI/CD Pipeline",
-      description: "Designed and implemented a comprehensive CI/CD pipeline spanning AWS, Azure, and GCP. Features automated testing, security scanning, and deployment across multiple environments with rollback capabilities.",
-      technologies: ["Jenkins", "Docker", "Kubernetes", "Terraform", "AWS"],
-      status: "Enterprise Project",
-      year: "2024",
-      githubUrl: "#",
-      liveUrl: "#"
-    },
-    {
-      title: "Microservices Monitoring Stack",
-      description: "Built a comprehensive observability platform for microservices architecture using Prometheus, Grafana, and ELK stack. Includes custom dashboards, alerting rules, and automated incident response workflows.",
-      technologies: ["Prometheus", "Grafana", "ELK Stack", "Kubernetes", "AWS"],
+      title: "Scalable 3-Tier Flask, Nginx, MySQL Deployment",
+      description: "Designed and deployed a high-availability, scalable 3-tier architecture handling 10,000+ concurrent users with Nginx as a load balancer. Achieved 60% downtime reduction using AWS EKS and Kubernetes for better fault tolerance and orchestration.",
+      technologies: ["Flask", "Nginx", "MySQL", "AWS EKS", "Kubernetes", "Docker"],
       status: "Production System",
-      year: "2023",
+      year: "Sep 2023 - Present",
       githubUrl: "#",
       liveUrl: "#"
     },
     {
-      title: "Infrastructure as Code Framework",
-      description: "Developed a reusable Terraform framework for multi-environment infrastructure deployment. Includes modules for networking, security, compute, and storage resources with automated compliance checks.",
-      technologies: ["Terraform", "Ansible", "AWS", "Azure", "GitLab CI"],
-      status: "Open Source",
-      year: "2023",
-      githubUrl: "#",
-      liveUrl: "#"
-    },
-    {
-      title: "GitOps Deployment Pipeline",
-      description: "Implemented GitOps workflow using ArgoCD for automated application deployment and configuration management. Features progressive delivery, automated rollbacks, and multi-cluster synchronization.",
-      technologies: ["ArgoCD", "Kubernetes", "Helm", "GitHub Actions", "GCP"],
+      title: "Automated CI/CD Pipeline for Django Web App",
+      description: "Developed a real-time CI/CD pipeline on AWS using Jenkins, GitHub Actions, and GitLab CI, reducing deployment errors by 40%. Integrated SonarQube and Trivy for code quality and security scans, ensuring compliance with OWASP security guidelines.",
+      technologies: ["Django", "Jenkins", "GitHub Actions", "GitLab CI", "SonarQube", "Trivy", "AWS"],
       status: "Production Ready",
-      year: "2024",
+      year: "Mar 2024 - Present",
+      githubUrl: "#",
+      liveUrl: "#"
+    },
+    {
+      title: "AWS Multi-Environment Infrastructure Automation",
+      description: "Automated the provisioning and management of multi-environment (test, dev, prod) AWS infrastructure using Terraform. Created AWS EC2 instances, S3 buckets, and DynamoDB tables with optimized resource allocation for each environment, reducing manual intervention by 80%.",
+      technologies: ["Terraform", "AWS EC2", "AWS S3", "AWS DynamoDB", "Infrastructure as Code"],
+      status: "Enterprise Project",
+      year: "Jun 2024 - Present",
+      githubUrl: "#",
+      liveUrl: "#"
+    },
+    {
+      title: "Cloud Infrastructure Management at TCS",
+      description: "Managed over 50+ cloud servers across 5+ environments, automating provisioning, scaling, and monitoring. Built end-to-end CI/CD pipelines using Jenkins, GitLab CI, and Harness, reducing deployment time by 60% and minimizing failures.",
+      technologies: ["Docker", "Kubernetes", "Linux", "AWS", "Jenkins", "Harness", "Prometheus", "Grafana"],
+      status: "Professional Experience",
+      year: "Oct 2022 - Present",
       githubUrl: "#",
       liveUrl: "#"
     }
