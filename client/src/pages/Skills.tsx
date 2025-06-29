@@ -59,12 +59,12 @@ export default function Skills() {
   ];
 
   return (
-    <section className="pt-32 pb-24 px-6">
+    <section className="pt-32 pb-24 px-6 bg-background dark:bg-background">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h1 className="font-sf-pro text-4xl md:text-5xl font-bold text-github-dark mb-4">Technical Skills</h1>
-          <div className="w-24 h-1 bg-github-blue mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+        <div className="text-center mb-16 animate-fade-in">
+          <h1 className="font-sf-pro text-4xl md:text-5xl font-bold text-github-dark dark:text-white mb-4 animate-slide-up">Technical Skills</h1>
+          <div className="w-24 h-1 gradient-bg mx-auto mb-6 animate-slide-up" style={{animationDelay: '0.2s'}}></div>
+          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto animate-slide-up" style={{animationDelay: '0.4s'}}>
             Comprehensive expertise across cloud platforms, DevOps tools, and modern infrastructure technologies
           </p>
         </div>

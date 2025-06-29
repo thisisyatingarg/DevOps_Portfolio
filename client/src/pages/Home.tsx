@@ -17,10 +17,10 @@ export default function Home() {
     <div className="pt-32 pb-24 px-6 bg-background dark:bg-background">
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-8 animate-fade-in">
-          <h1 className="font-sf-pro text-5xl md:text-7xl font-bold text-github-dark dark:text-white mb-4 leading-tight animate-slide-up">
+          <h1 className="font-sf-pro text-5xl md:text-7xl font-bold text-github-dark dark:text-white mb-4 leading-tight animate-slide-up holographic-text" data-text="Yatin Garg">
             Yatin Garg
           </h1>
-          <h2 className="font-inter text-xl md:text-2xl gradient-text font-medium mb-6 tracking-wide animate-slide-up" style={{animationDelay: '0.2s'}}>
+          <h2 className="font-inter text-xl md:text-2xl gradient-text font-medium mb-6 tracking-wide animate-slide-up neon-pulse" style={{animationDelay: '0.2s'}}>
             AWS DevOps Engineer
           </h2>
           <p className="font-inter text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed animate-slide-up" style={{animationDelay: '0.4s'}}>

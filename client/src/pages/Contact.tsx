@@ -3,12 +3,12 @@ import { Mail, Linkedin, Github, MapPin } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section className="pt-32 pb-24 px-6">
+    <section className="pt-32 pb-24 px-6 bg-background dark:bg-background">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-16">
-          <h1 className="font-sf-pro text-4xl md:text-5xl font-bold text-github-dark mb-4">Get In Touch</h1>
-          <div className="w-24 h-1 bg-github-blue mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        <div className="text-center mb-16 animate-fade-in">
+          <h1 className="font-sf-pro text-4xl md:text-5xl font-bold text-github-dark dark:text-white mb-4 animate-slide-up">Get In Touch</h1>
+          <div className="w-24 h-1 gradient-bg mx-auto mb-6 animate-slide-up" style={{animationDelay: '0.2s'}}></div>
+          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto animate-slide-up" style={{animationDelay: '0.4s'}}>
             Ready to discuss your next DevOps project or explore opportunities? 
             I'd love to hear from you and discuss how we can work together.
           </p>
