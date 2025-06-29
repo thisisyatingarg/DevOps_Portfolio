@@ -1,29 +1,26 @@
-# Step 1: Build Stage
-FROM node:18-alpine AS builder
+# Stage 1: Base Node image
+FROM node:18-alpine
 
-# Set working directory
+# Create app directory
 WORKDIR /app
 
-# Copy package.json and install dependencies
+# Copy dependencies first for caching
 COPY package*.json ./
+COPY tsconfig.json ./
+COPY vite.config.ts ./
+
+# Install app dependencies
 RUN npm install
 
-# Copy the rest of the code
+# Copy entire project
 COPY . .
 
-# Build the React app
+# Build the frontend (Vite builds into ./dist)
 RUN npm run build
 
-# Step 2: Serve with Nginx
-FROM nginx:alpine
+# Expose the backend port (Express runs on 5000)
+EXPOSE 5000
 
-# Copy built React files to Nginx's public folder
-COPY --from=builder /app/build /usr/share/nginx/html
+# Start the backend server using tsx
+CMD ["npm", "start"]
 
-# Copy custom Nginx config (optional)
-# COPY nginx.conf /etc/nginx/conf.d/default.conf
-
-EXPOSE 80
-
-# Start Nginx server
-CMD ["nginx", "-g", "daemon off;"]

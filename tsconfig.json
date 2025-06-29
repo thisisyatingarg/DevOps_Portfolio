@@ -5,19 +5,28 @@
     "incremental": true,
     "tsBuildInfoFile": "./node_modules/typescript/tsbuildinfo",
     "noEmit": true,
-    "module": "ESNext",
-    "strict": true,
+    
+    "module": "ESNext",                         // For ESM
+    "target": "ES2020",                         // Modern output
+    "moduleResolution": "Node",                 // Switch to Node for server compatibility
+    "esModuleInterop": true,                    // Required for importing CommonJS modules
+    "allowSyntheticDefaultImports": true,       // Works with Babel and Vite
+    "allowImportingTsExtensions": true,         // You already had this — good
+
+    "strict": true,                             // Keep strict type checking
+    "skipLibCheck": true,                       // Speeds up compile time
+    "forceConsistentCasingInFileNames": true,   // Cross-platform consistency
+
+    "jsx": "preserve",                          // Vite handles JSX transform
     "lib": ["esnext", "dom", "dom.iterable"],
-    "jsx": "preserve",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "allowImportingTsExtensions": true,
-    "moduleResolution": "bundler",
-    "baseUrl": ".",
-    "types": ["node", "vite/client"],
+
+    "baseUrl": ".",                             // For path mapping
     "paths": {
       "@/*": ["./client/src/*"],
       "@shared/*": ["./shared/*"]
-    }
+    },
+
+    "types": ["vite/client", "node"]            // Include Node types and Vite types
   }
 }
+
