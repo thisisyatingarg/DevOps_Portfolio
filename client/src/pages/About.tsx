@@ -12,7 +12,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              I'm a dedicated AWS DevOps Engineer with over 5 years of experience in cloud infrastructure, 
+              I'm a dedicated AWS DevOps Engineer with 3 years of experience in cloud infrastructure, 
               automation, and modern development practices. My passion lies in creating robust, scalable 
               systems that enable teams to deliver high-quality software efficiently.
             </p>
@@ -23,11 +23,11 @@ export default function About() {
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="text-center p-4 bg-white rounded-lg border border-github-border">
-                <div className="text-2xl font-bold text-github-blue">5+</div>
+                <div className="text-2xl font-bold text-github-blue">3+</div>
                 <div className="text-sm text-gray-600">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-white rounded-lg border border-github-border">
-                <div className="text-2xl font-bold text-github-blue">50+</div>
+                <div className="text-2xl font-bold text-github-blue">25+</div>
                 <div className="text-sm text-gray-600">Projects Completed</div>
               </div>
             </div>
