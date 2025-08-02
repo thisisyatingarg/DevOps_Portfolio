@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Yatin_Garg_Resume.pdf';
+    link.href = '/DevOps_Portfolio/Yatin_Garg_Resume.pdf';
     link.download = 'Yatin_Garg_Resume.pdf';
     document.body.appendChild(link);
     link.click();

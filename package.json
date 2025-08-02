@@ -12,7 +12,9 @@
     "start": "NODE_ENV=production tsx server/index.ts",
     "check": "tsc",
     "preview": "vite preview",
-    "db:push": "drizzle-kit push"
+    "db:push": "drizzle-kit push",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist/public"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -97,6 +99,7 @@
     "autoprefixer": "^10.4.20",
     "drizzle-kit": "^0.30.4",
     "esbuild": "^0.25.5",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.17",
     "tsx": "^4.20.3",
@@ -107,4 +110,3 @@
     "bufferutil": "^4.0.8"
   }
 }
-
