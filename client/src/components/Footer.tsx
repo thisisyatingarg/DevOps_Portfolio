@@ -14,7 +14,7 @@ export default function Footer() {
           
           <div className="flex items-center justify-center gap-6 mb-8">
             <a 
-              href="https://github.com" 
+              href="https://github.com/thisisyatingarg" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white dark:hover:text-blue-400 transition-all duration-300 transform hover:scale-110 hover:rotate-12 p-3 rounded-full hover:bg-blue-900/20"
@@ -22,7 +22,7 @@ export default function Footer() {
               <Github className="text-2xl" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="http://www.linkedin.com/in/thisisyatingarg-83788b1a3" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white dark:hover:text-blue-400 transition-all duration-300 transform hover:scale-110 hover:rotate-12 p-3 rounded-full hover:bg-blue-900/20"
@@ -30,7 +30,7 @@ export default function Footer() {
               <Linkedin className="text-2xl" />
             </a>
             <a 
-              href="mailto:yatin.garg@example.com"
+              href="mailto:yatingarg369@gmail.com"
               className="text-gray-400 hover:text-white dark:hover:text-blue-400 transition-all duration-300 transform hover:scale-110 hover:rotate-12 p-3 rounded-full hover:bg-blue-900/20"
             >
               <Mail className="text-2xl" />

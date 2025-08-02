@@ -8,10 +8,21 @@ export default function Skills() {
       icon: Cloud,
       skills: [
         { name: "AWS", level: 5 },
-        { name: "AWS EC2", level: 5 },
-        { name: "AWS S3", level: 5 },
-        { name: "AWS EKS", level: 4 },
-        { name: "AWS DynamoDB", level: 4 },
+        { name: "Azure", level: 3 },
+        { name: "GCP", level: 3 },
+	{ name: "Serverless", level: 3 },
+        { name: "AWS EC2 (Compute)", level: 5 },
+  	{ name: "AWS S3 (Object Storage)", level: 5 },
+        { name: "AWS EKS (Kubernetes)", level: 4 },
+        { name: "AWS RDS (Managed DB)", level: 4 },
+        { name: "AWS IAM (Access Management)", level: 5 },
+        { name: "AWS VPC (Networking)", level: 4 },
+        { name: "AWS DynamoDB (NoSQL)", level: 4 },
+        { name: "AWS Lambda (Serverless)", level: 3 },
+        { name: "AWS CloudFormation (IaC)", level: 4 },
+        { name: "AWS CloudWatch (Monitoring)", level: 3 },
+        { name: "AWS SNS (Notification Service)", level: 4 },
+        { name: "AWS Route 53 (DNS)", level: 3 },
       ]
     },
     {
@@ -90,7 +101,7 @@ export default function Skills() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
           {skillCategories.map((category) => (
             <SkillCard key={category.title} category={category} />
           ))}

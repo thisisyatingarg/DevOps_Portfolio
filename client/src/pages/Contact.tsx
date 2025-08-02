@@ -38,12 +38,12 @@ export default function Contact() {
               <div>
                 <h3 className="font-sf-pro text-lg font-semibold text-github-dark dark:text-white">LinkedIn</h3>
                 <a 
-                  href="https://linkedin.com/in/yatingarg" 
+                  href="https://www.linkedin.com/in/thisisyatingarg-83788b1a3" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-300 hover:text-github-blue dark:hover:text-blue-400 transition-colors"
                 >
-                  linkedin.com/in/yatingarg
+                  linkedin.com/in/thisisyatingarg-83788b1a3
                 </a>
               </div>
             </div>
@@ -55,12 +55,12 @@ export default function Contact() {
               <div>
                 <h3 className="font-sf-pro text-lg font-semibold text-github-dark dark:text-white">GitHub</h3>
                 <a 
-                  href="https://github.com/yatingarg" 
+                  href="https://github.com/thisisyatingarg" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-300 hover:text-github-blue dark:hover:text-blue-400 transition-colors"
                 >
-                  github.com/yatingarg
+                  github.com/thisisyatingarg
                 </a>
               </div>
             </div>

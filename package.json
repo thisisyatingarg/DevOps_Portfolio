@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
+  "homepage": "https://thisisyatingarg.github.io/DevOps_Portfolio",
   "scripts": {
     "dev": "NODE_ENV=development tsx server/index.ts",
     "client": "vite",

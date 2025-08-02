@@ -54,7 +54,7 @@ export default function Home() {
 
         <div className="flex items-center justify-center gap-6 text-github-text dark:text-gray-400 animate-slide-up" style={{animationDelay: '0.8s'}}>
           <a 
-            href="https://github.com" 
+            href="https://github.com/thisisyatingarg" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-2xl hover:text-github-blue dark:hover:text-blue-400 transition-all duration-300 transform hover:scale-110 hover:rotate-12 p-3 rounded-full hover:bg-blue-50 dark:hover:bg-blue-900/20"
@@ -62,7 +62,7 @@ export default function Home() {
             <Github />
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/thisisyatingarg-83788b1a3" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-2xl hover:text-github-blue dark:hover:text-blue-400 transition-all duration-300 transform hover:scale-110 hover:rotate-12 p-3 rounded-full hover:bg-blue-50 dark:hover:bg-blue-900/20"
