@@ -1,7 +1,7 @@
 ""Note: Dockerfile present in main branch is not working, only devOps branch file works"
 
 
-Commands to run Dockerfile:
+Commands to build and run Dockerfile:
 
 1. Create a docker image from Dockerfile
     ```bash
